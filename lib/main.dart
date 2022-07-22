@@ -21,15 +21,7 @@ class MyApp extends StatelessWidget {
           ),
           body: ListView(
             children: [
-              ListTile(
-                leading: CircleAvatar(),
-                title: Text('James Junior'),
-                subtitle: Row(children: [
-                  Icon(Icons.done_all),
-                  Text('Edgar snacks zote ni zako')
-                ]),
-                trailing: Text('23:00'),
-              ),ListTile(
+             ListTile(
                 leading: CircleAvatar(),
                 title: Text('Nana'),
                 subtitle: Row(children: [
